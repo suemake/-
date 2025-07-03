@@ -1,0 +1,53 @@
+#header {}
+
+#content {
+    background: #222;
+}
+
+.main_all {
+    /* margin: 2.4rem 2.4rem 2.4rem 2.4rem; */
+    padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+    background: #222;
+
+}
+
+.main_all_txt {
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main_all_txt h2 {
+    letter-spacing: -0.1rem;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.first_wrap {
+    display: flex;
+    margin-top: 16px;
+}
+
+.first .itm figure {
+
+    border: 1px solid #555;
+
+    overflow: hidden;
+    background: tan;
+}
+
+.itm figure img {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+.fourth a {
+    height: 700px;
+}

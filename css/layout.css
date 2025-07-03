@@ -1,0 +1,55 @@
+.category {
+    position: sticky;
+    min-height: 0;
+    padding: 16px 0 16px 0;
+
+    /* display: grid;
+
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr; */
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+    background: #222;
+
+}
+
+
+/* 1. 첫 번째 섹션: header 높이만큼 아래 */
+.category.first {
+    top: calc(108px);
+}
+
+/* 2. 두 번째 섹션: header(108px) + first(455px) */
+.category.second {
+    top: calc(108px + 455px);
+}
+
+/* 3. 세 번째 섹션: header + first + second */
+.category.third {
+    top: calc(108px + 455px + 455px);
+}
+
+/* 4. 네 번째 섹션도 마찬가지(필요시) */
+.category.fourth {
+    top: calc(108px + 455px + 455px + 455px);
+}
+
+
+.txt {
+    display: grid;
+    min-height: 0;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 20px;
+    color: #fff;
+
+
+}
+
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 2;
+}
